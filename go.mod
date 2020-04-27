@@ -52,3 +52,6 @@ require (
 	gopkg.in/ini.v1 v1.55.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8
 )
+
+// Temporary until a new version of github.com/go-git/go-git is tagged.
+replace github.com/go-git/go-git/v5 => github.com/twpayne/go-git/v5 v5.0.1
